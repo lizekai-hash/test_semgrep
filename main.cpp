@@ -379,7 +379,7 @@ private:
             paused_ = !paused_;
         } else if (ch == 'q') {
             // 结束当前局
-            running_ = false;
+            running_ = false
         }
     }
 
@@ -531,5 +531,6 @@ int main() {
     game.run();
     return 0;
 }
+
 
 
